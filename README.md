@@ -11,9 +11,13 @@ I usually refer W3 Schools' URL encoding reference for manually passing the enco
 Here, the Groovy script offers a more robust way of performing this URL encoding activity for the Boomi's native HTTP Connector, since we don't have to manually put all the required search/replace characters. Please refer the Groovy (2.4) script - "boomiUrlEncode.groovy".
 
 However, the aforementioned Groovy script can encode the **space character** as **+** instead of ""%20**. In this case, please follow the below steps.
+
 **Step-1:** Create a Map Function.
+
 **Step-2:** String Replace the **space character** with **%20**.
+
 **Step-3:** Use the Groovy (2.4) script - named "boomiUrlEncode.groovy".
+
 **Step-4:** String Replace **%2520** with **%20**.
 
 <img width="1186" alt="image" src="https://github.com/ayanpan/boomi-url-encode/assets/12267939/8f9d5329-6af6-4734-874f-33866c726556">
