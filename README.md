@@ -10,7 +10,7 @@ I usually refer W3 Schools' URL encoding reference for manually passing the enco
 
 Here, the Groovy script offers a more robust way of performing this URL encoding activity for the Boomi's native HTTP Connector, since we don't have to manually put all the required search/replace characters. Please refer the Groovy (2.4) script - "boomiUrlEncode.groovy", which can be used in Boomi as a **Map Script**.
 
-However, the aforementioned Groovy script can encode the **space character** as **+** instead of ""%20**. In this case, please follow the below steps.
+However, the aforementioned Groovy script can encode the **space character** as **+** instead of **%20**. In this case, please follow the below steps.
 
 **Step-1:** Create a Map Function.
 
